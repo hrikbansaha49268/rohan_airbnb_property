@@ -2,10 +2,10 @@ import React from 'react';
 
 const Hero = () => {
     return (
-        <section className='w-[60vw] mx-auto flex flex-col gap-y-8'>
+        <section className='3xl:w-[60vw] 2xl:w-[70vw] mx-auto flex flex-col gap-y-8'>
             <div className="flex justify-around h-full">
                 <img
-                    className='w-[323px] h-[308px] object-cover drop-shadow-md'
+                    className='w-[323px] h-[308px] object-cover drop-shadow-md rounded-xl'
                     src={window.location.origin + '/assets/img1.jpg'}
                     alt="Image 1"
                 />
@@ -19,19 +19,19 @@ const Hero = () => {
                     </button>
                 </div>
                 <img
-                    className='w-[323px] h-[308px] object-cover drop-shadow-md'
+                    className='w-[323px] h-[308px] object-cover drop-shadow-md rounded-xl'
                     src={window.location.origin + '/assets/img1.jpg'}
                     alt="Image 1"
                 />
             </div>
             <div className="flex justify-around">
                 <img
-                    className='w-[507px] h-[318px] object-cover drop-shadow-md'
+                    className='w-[507px] h-[318px] object-cover drop-shadow-md rounded-xl'
                     src={window.location.origin + '/assets/img2.jpg'}
                     alt="Image 1"
                 />
                 <img
-                    className='w-[459px] h-[318px] object-cover drop-shadow-md'
+                    className='w-[459px] h-[318px] object-cover drop-shadow-md rounded-xl'
                     src={window.location.origin + '/assets/img2.jpg'}
                     alt="Image 1"
                 />
