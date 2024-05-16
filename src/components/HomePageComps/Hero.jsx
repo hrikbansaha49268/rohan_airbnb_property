@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
     return (
-        <section className='w-[60vw] mx-auto flex flex-col gap-y-8'>
+        <section className='3xl:w-[60vw] 2xl:w-[70vw] mx-auto flex flex-col gap-y-8'>
             <div className="flex justify-around h-full">
                 <img
                     className='w-[323px] h-[308px] object-cover drop-shadow-md'

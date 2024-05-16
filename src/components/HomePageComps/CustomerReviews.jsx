@@ -3,7 +3,7 @@ import ReviewItem from './ReviewItem';
 
 const CustomerReviews = () => {
     return (
-        <section className='mx-auto w-[60vw] flex flex-col gap-y-16'>
+        <section className='mx-auto 3xl:w-[60vw] 2xl:w-[70vw] flex flex-col gap-y-16'>
             <p className='font-inter text-[#0F172A] font-extrabold text-4xl'>
                 Our Reviews
             </p>
